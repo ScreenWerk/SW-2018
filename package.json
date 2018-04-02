@@ -1,0 +1,32 @@
+{
+  "name": "sw-2018",
+  "version": "0.0.1",
+  "description": "Event-based media player for digital signage.",
+  "main": "app/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScreenWerk/SW-2018.git"
+  },
+  "keywords": [
+    "digital",
+    "signage",
+    "player"
+  ],
+  "author": "michelek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ScreenWerk/SW-2018/issues"
+  },
+  "homepage": "https://github.com/ScreenWerk/SW-2018#readme",
+  "devDependencies": {
+    "electron": "1.7.9"
+  },
+  "dependencies": {
+    "async": "^2.6.0",
+    "yamljs": "^0.3.0"
+  }
+}
