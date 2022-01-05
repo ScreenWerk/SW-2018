@@ -83,7 +83,7 @@ function createWindow () {
     mainWindow.setSkipTaskbar(skipTaskbar)
   }
   if (isWin) {
-    mainWindow.setIcon(path.resolve(__dirname, '..', 'public', 'icon.ico'))
+    // mainWindow.setIcon(path.resolve(__dirname, '..', 'public', 'icon.ico'))
   }
   // and load the index.html of the app.
   mainWindow.loadURL('file://' + __dirname + '/index.html')
